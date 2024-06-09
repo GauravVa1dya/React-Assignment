@@ -1,3 +1,6 @@
+# jiffyLabs Assignment
+The assignment is live here [Live Assignment Link](https://react-jiffylabs-assignment.onrender.com/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
