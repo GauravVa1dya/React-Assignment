@@ -1,0 +1,163 @@
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .task:hover {
+    padding: 30px;
+    transform: scale(1.1);
+}
+  
+  .task img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .task-info {
+    flex-grow: 1;
+  }
+  
+  .task-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color:#252424;
+    font-weight: 600;
+    font-family: 'Inter';
+    line-height: 28px;
+  }
+  
+  .task-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .tag {
+    background: #f0f0f0;
+    padding: 3px 6px;
+    font-size: 12px;
+    height: 24px;
+    width: 80px;
+    align-self: center;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .tag[value="Design"] {
+    background: #F2EDFF;
+    color: #8948F2;
+  }
+  .tag[value="Frontend"] {
+    background:#EBF3FF;
+    color: #3EA7FF;
+  }
+  .tag[value="Backend"] {
+    background:#FFF2EB;
+    color: #FF8370;
+  }
+  .tag[value="Blockchain"] {
+    background:#FFEBF9;
+    color: #FF3EC9;
+  }
+  .tag[value="Content"] {
+    background:#EFF6F8;
+    color: #5EA8C4;
+  }
+
+  .task-meta {
+    text-align: right;
+  }
+  
+  .task-meta span {
+    display: block;
+    color: #666;
+    font-size: 14px;
+  }
+  #usdc-img{
+    width: 25px;
+    height: 25px;
+    margin-right: 0px;
+    align-self: center;
+  }
+  #usdc-img1{
+    width: 14px;
+    height: 16px;
+    margin-right: 0px;
+    margin-left: 10px;
+    align-self: center;
+  }
+  .tags p{
+    font-size: 20px;
+    font-weight: 600;
+    color:#252424;
+  }
+  .tags p span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #94A3B8;
+    border-right: 1px solid #CBD8E9;
+    padding-right: 15px;
+  }
+
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .task {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .task img {
+      margin-bottom: 10px;
+    }
+  
+    .task-info h3 {
+      font-size: 16px;
+    }
+  
+    .task-info p {
+      font-size: 14px;
+    }
+  
+    .task-meta {
+      text-align: left;
+      margin-top: 10px;
+    }
+  
+    .task-meta span {
+      font-size: 12px;
+    }
+    .tags {
+      display: inline;
+      gap: 0px;
+      line-height: 14px;
+      position: relative;
+  }
+  #usdc-img {
+    float: left;
+  }
+  #usdc-img1 {
+    float: left;
+    margin-left: -18px;
+    margin-top: 10px;
+  }
+  #usdc-img2 {
+    margin-top: 16px;
+  }
+}
+  
